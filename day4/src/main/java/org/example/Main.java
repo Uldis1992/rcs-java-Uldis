@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         task2();
+}
 
-        
     public static void sample1() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Sveiki, ievadiet simbolu virkni");
@@ -26,7 +26,6 @@ public class Main {
 
 
     private static void task2() {
-        task2();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Sveiki, lūdzu, Ievadiet skaitli:");
@@ -35,7 +34,7 @@ public class Main {
 
         if((input >= 10) || (input <= 5)){
             System.out.println("$$");
-        }else if((input >= 6) && (input <= 9)) {
+        }else {
             System.out.println("$");
 
         }
