@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         task2();
 
-
+        
     public static void sample1() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Sveiki, ievadiet simbolu virkni");
@@ -23,7 +23,7 @@ public class Main {
 
         }
     }
-}
+
 
     private static void task2() {
         task2();
