@@ -6,37 +6,17 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        task2();
-}
+        public static void cw_1() {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Ievadiet skaitli:");
 
-    public static void sample1() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Sveiki, ievadiet simbolu virkni");
-        String input = sc.nextLine();
-        String result = "Programmēšana";
-        if (input.equals(result)) {
-            System.out.println("Uzvarēji!");
-        } else if (input.length() == result.length()) {
-            System.out.println("Vienāds simbolu skaits");
-        } else {
-            System.out.println("Zaudēji!");
+            int number = sc.nextInt();
+            int fact = 1;
 
+            for (int i = 1; i <= number; i++) {
+                fact = fact * i;
+            }
+            System.out.println("Skaitļa "+ number + " faktoriāls ir "+ fact);
         }
     }
-
-
-    private static void task2() {
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Sveiki, lūdzu, Ievadiet skaitli:");
-
-        int input = sc.nextInt();
-
-        if((input >= 10) || (input <= 5)){
-            System.out.println("$$");
-        }else {
-            System.out.println("$");
-
-        }
-    }
-}
+p
